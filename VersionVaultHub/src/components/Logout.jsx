@@ -12,7 +12,7 @@ const Logout = ({ setUserInfo, setProfileInfo }) => {
 
   return (
     <>
-      <button onClick={logOut}>Log out</button>
+      <button className="" onClick={logOut}>Log out</button>
     </>
   );
 };
